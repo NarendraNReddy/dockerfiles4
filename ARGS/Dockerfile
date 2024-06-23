@@ -1,4 +1,3 @@
 ARG version
-FROM almalinux:${vesion}
-RUN cat /etc/*release
+FROM almalinux:${version}
 CMD ["sleep","100"]
